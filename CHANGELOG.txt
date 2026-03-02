@@ -1,0 +1,37 @@
+Changelog
+=========
+
+
+v0.1.0 (2026-03-02)
+-------------------
+
+Changes
+-------
+
+- Rename repository.
+- Pixi, prek, vscode, copier.
+
+
+Fixes
+-----
+
+- Use project_slug when entering into the folder.
+- Typo in the repository name.
+- Pin actions.
+
+
+Other
+-----
+
+- Doc: fix maintenace script doc.
+- Docs: git init required by prek.
+- Merge pull request #7 from NINAnor/fix-project-slug-readme.
+  fix: use project_slug when entering into the folder
+- Merge pull request #4 from nicokant/patch-1.
+  fix: typo in the repository name
+- Merge pull request #3 from nicokant/ai.
+  chg: pixi, prek, vscode, copier
+- Add "Additional resources" section.
+- Add reasonable defaults.
+
+
