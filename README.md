@@ -63,7 +63,7 @@ Please report any issues you have using the template, even if some documentation
 **NOTE**: Development of the template is supported only on Linux, the scripts used for development/maintenance of the template are Linux-only, while the resulting template can also be used in Windows.
 
 Install development dependencies:
-- **pinact**: `./scripts/install-pinact.sh`
+- **pinact**: `./template_scripts/install-pinact.sh`
 
 ## Testing the template
 To test the template using copier-template-tester, run:
@@ -74,16 +74,16 @@ pre-commit run -c .pre-commit-config-extra.yaml
 ## Maintenance
 To update dependencies and tools:
 ```bash
-./scripts/maintenance.sh
+./template_scripts/maintenance.sh
 ```
 
 ## How to version
 To create a new release:
 ```bash
-./scripts/release.sh <patch|minor|major>
+./template_scripts/release.sh <patch|minor|major>
 ```
 
 Example:
 ```bash
-./scripts/release.sh minor
+./template_scripts/release.sh minor
 ```
