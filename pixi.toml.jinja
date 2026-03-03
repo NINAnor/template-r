@@ -8,6 +8,7 @@ version = "0.1.0"
 [tasks]
 Rscript = "Rscript"
 radian = "radian"
+generate-renviron = "bash scripts/generate-renviron.sh"
 
 [dependencies]
 r-base = ">=4.5.2,<4.6"
@@ -15,6 +16,9 @@ r-languageserver = ">=0.3.16,<0.4"
 radian = ">=0.6.15,<0.7"
 r-httpgd = ">=2.0.4,<3"
 prek = ">=0.3.2,<0.4"
+
+[activation]
+scripts = ["scripts/generate-renviron.sh"]
 
 [activation.env]
 R_HOME = "$CONDA_PREFIX/lib/R"

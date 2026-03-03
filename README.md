@@ -30,6 +30,12 @@ uvx --with copier_template_extensions copier copy --trust gh:ninanor/template-r 
 This will add the template files to your current directory. Be careful as this may overwrite existing files.
 
 
+## Setup RStudio
+
+```bash
+pixi run generate-renviron
+```
+
 ## Features
 Why should I use this template:
 
