@@ -68,7 +68,7 @@ Install development dependencies:
 ## Testing the template
 To test the template using copier-template-tester, run:
 ```bash
-pre-commit run -c .pre-commit-config-extra.yaml
+pre-commit run
 ```
 
 ## Maintenance

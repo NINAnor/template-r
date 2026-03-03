@@ -33,5 +33,3 @@ Other
   chg: pixi, prek, vscode, copier
 - Add "Additional resources" section.
 - Add reasonable defaults.
-
-
