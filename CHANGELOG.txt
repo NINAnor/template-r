@@ -2,6 +2,21 @@ Changelog
 =========
 
 
+v0.1.1 (2026-03-13)
+-------------------
+
+Fixes
+-----
+
+- Pre-commit uses air.
+
+
+Other
+-----
+
+- Feat: add project.Rproj.
+
+
 v0.1.0 (2026-03-02)
 -------------------
 
